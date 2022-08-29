@@ -6,15 +6,23 @@ Content-Type: application/json
 
 ###
 
-PUT {{baseURl}}/goals/1 HTTP/1.1
+PUT {{baseURl}}/goals/630cd45f348c4d6d5f8d0ae4 HTTP/1.1
 Content-Type: application/json
+
+{
+    "text": "Updated goal"
+}
 
 ###
 
 POST {{baseURl}}/goals HTTP/1.1
 Content-Type: application/json
 
+{
+    "text": "My Second Goal"
+}
+
 ###
 
-DELETE  {{baseURl}}/goals/1 HTTP/1.1
+DELETE  {{baseURl}}/goals/630cd45f348c4d6d5f8d0ae4 HTTP/1.1
 Content-Type: application/json
